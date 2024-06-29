@@ -19,3 +19,5 @@ function oneDown(str) {
   let alph = "zABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
   return typeof str === "string" ? str.replace(/\w/g, v => alph.charAt(alph.lastIndexOf(v) - 1)) : "Input is not a string";
 }
+
+// or
